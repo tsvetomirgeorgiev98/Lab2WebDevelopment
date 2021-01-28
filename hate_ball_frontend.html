@@ -42,7 +42,7 @@
 	  selected_type = ball_type.options[selected_type_index].value;
 	  
 			
-	  req.open("GET", "http://imaginary-realities.com/hate_ball_get_post_no_format.php?question=" + question + "&action=" + selected_type, true);
+	  req.open("GET", "hate_ball.php" + question + "&action=" + selected_type, true);
   	req.send();
 
 	}
